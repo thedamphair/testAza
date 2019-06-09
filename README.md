@@ -2,6 +2,12 @@
 
 This project was generated to connect with a wadl API.
 
+## Required to use
+
+- Install [Git](https://git-scm.com/download/)
+- Install [NodeJS](https://nodejs.org/download/release/v10.6.0/) 10.6.0
+- Install Angular `npm i -g @angular/cli@7`
+
 ## To install
 
 Run `npm i`
