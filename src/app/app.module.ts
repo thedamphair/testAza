@@ -7,11 +7,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from '../pages/home/home.component';
 import { VinProvider } from '../providers';
+import { VinDataComponent } from '../components/vin-data/vin-data.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    VinDataComponent
   ],
   imports: [
     BrowserModule,

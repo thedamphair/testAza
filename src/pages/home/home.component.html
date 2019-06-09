@@ -2,7 +2,7 @@
   <div class="col-sm-offset-4 col-sm-4 panel panel-default">
     <form>
       <div class="panel-heading">
-        <h5>Ingresa un vin:</h5>
+        <h5>Find a vin:</h5>
       </div>
       <div class="panel-body">
         <div class="input-group"> 
@@ -22,5 +22,7 @@
   </div>
 </div>
 <div class="row" *ngIf="foundData">
-  
+  <div class="col-sm-12">
+    <app-vin-data [vinData]="data" [update]="foundData"></app-vin-data>
+  </div>
 </div>
